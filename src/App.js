@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
 import DefaultHeader from "./components/defaultHeader";
-import image from "./images/home.jpg";
+import HomeComponent from "./components/homeComponent";
 
 function App() {
   const [section, setSection] = useState("home");
@@ -11,16 +11,7 @@ function App() {
       <DefaultHeader setSection={setSection} section={section} />
       <div className="flex-grow flex flex-col items-center">
         {section === "home" && (
-          <div className="flex flex-col items-center w-full">
-            <div className="h-48 w-full">
-              <img
-                className="object-cover w-full h-full blur-sm"
-                src={image}
-                alt="développeur"
-              />
-            </div>
-            <h1 className="text-6xl text-white mt-4">Home</h1>
-          </div>
+          <HomeComponent />
         )}
         {section === "skills" && (
           <div className="flex flex-col items-center">
