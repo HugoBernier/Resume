@@ -1,6 +1,6 @@
 import React from "react";
 
-const DefaultHeader = ({ setSection, section }) => {
+const headerComponent = ({ setSection, section }) => {
   return (
     <header className="w-full">
       <nav className="bg-background border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
@@ -114,4 +114,4 @@ const DefaultHeader = ({ setSection, section }) => {
   );
 };
 
-export default DefaultHeader;
+export default headerComponent;

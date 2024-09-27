@@ -1,8 +1,8 @@
 import "./App.css";
 import React, { useState } from "react";
-import DefaultHeader from "./components/defaultHeader";
+import DefaultHeader from "./components/headerComponent";
 import HomeComponent from "./components/homeComponent";
-import ContactForm from "./components/contactForm";
+import ContactForm from "./components/contactFormComponent";
 
 function App() {
   const [section, setSection] = useState("home");
