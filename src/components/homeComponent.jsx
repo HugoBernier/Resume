@@ -13,15 +13,15 @@ const HomeComponent = () => {
                     alt="développeur"
                 />
                 <div className="absolute inset-0 flex flex-col justify-center items-center">
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl text-white">BERNIER Hugo</h1>
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl text-black">BERNIER Hugo</h1>
                 </div>
             </div>
-            <div className="flex flex-col items-center text-center flex-grow px-4 sm:px-8 md:px-16 lg:px-32 mt-12">
-                <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-300 mt-4 sm:mt-6 md:mt-8">
+            <div className="flex flex-col items-center text-center flex-grow px-4 sm:px-8 md:px-16 lg:px-32 mt-8">
+                <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-300 md:mt-8">
                     Développeur Web, PHP/Laravel, ReactJS
                 </h2>
 
-                <div className="mt-4 flex flex-wrap gap-4 sm:gap-6 justify-center">
+                <div className="mt-6 flex flex-wrap gap-4 sm:gap-6 justify-center">
                     <div className="text-center">
                         <h3 className="text-lg sm:text-xl text-white mt-2">Développement backend</h3>
                     </div>
@@ -33,11 +33,11 @@ const HomeComponent = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col text-center text-base sm:text-lg text-accent-700 font-bold mt-4 sm:mt-6">
+                <div className="flex flex-col text-center text-base sm:text-lg text-accent-700 font-bold sm:mt-8">
                     <p>Recherche alternance de Janvier 2025 à Septembre 2027</p>
                 </div>
 
-                <div className="flex flex-col text-center text-base sm:text-lg text-gray-400 italic mt-2 sm:mt-4">
+                <div className="flex flex-col text-center text-base sm:text-lg text-gray-400 italic sm:mt-2">
                     <p>En cours de formation dans le parcours MSc Pro d'Epitech</p>
                 </div>
 
