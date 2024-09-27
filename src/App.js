@@ -5,6 +5,7 @@ import HomeComponent from "./components/homeComponent";
 import ContactForm from "./components/contactFormComponent";
 import SkillsComponent from "./components/skillsComponent";
 import ExperienceComponent from "./components/experienceComponent";
+import EducationComponent from "./components/educationComponent";
 
 function App() {
   const [section, setSection] = useState("home");
@@ -16,11 +17,7 @@ function App() {
         {section === "home" && <HomeComponent />}
         {section === "skills" && <SkillsComponent />}
         {section === "experiences" && <ExperienceComponent />}
-        {section === "educations" && (
-          <div className="flex flex-col items-center">
-            <h1 className="text-6xl text-white">Formations</h1>
-          </div>
-        )}
+        {section === "educations" && <EducationComponent />}
         {section === "contact" && <ContactForm />}
       </div>
     </div>

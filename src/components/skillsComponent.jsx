@@ -21,7 +21,7 @@ const SkillsComponent = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div className="text-center">
                         <h3 className="text-2xl text-white mb-6">Développement backend</h3>
-                        <div className="flex flex-col items-center gap-4">
+                        <div className="grid grid-cols-2 sm:grid-cols-1 gap-4">
                             <div className="flex flex-col items-center">
                                 <img
                                     src={phpImage}
@@ -50,7 +50,7 @@ const SkillsComponent = () => {
                     </div>
                     <div className="text-center">
                         <h3 className="text-2xl text-white mb-6">Développement Front</h3>
-                        <div className="flex flex-col items-center gap-4">
+                        <div className="grid grid-cols-2 sm:grid-cols-1 gap-4">
                             <div className="flex flex-col items-center">
                                 <img
                                     src={jsImage}
@@ -95,7 +95,7 @@ const SkillsComponent = () => {
                     </div>
                     <div className="text-center">
                         <h3 className="text-2xl text-white mb-6">Bases de données</h3>
-                        <div className="flex flex-col items-center gap-4">
+                        <div className="grid grid-cols-2 sm:grid-cols-1 gap-4">
                             <div className="flex flex-col items-center">
                                 <img
                                     src={sqlImage}
@@ -108,7 +108,7 @@ const SkillsComponent = () => {
                     </div>
                     <div className="text-center">
                         <h3 className="text-2xl text-white mb-6">Outils et Méthodologies</h3>
-                        <div className="flex flex-col items-center gap-4">
+                        <div className="grid grid-cols-2 sm:grid-cols-1 gap-4">
                             <div className="flex flex-col items-center">
                                 <img
                                     src={gitImage}
