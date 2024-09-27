@@ -5,16 +5,18 @@ import githubImage from "../images/github.png";
 
 const HomeComponent = () => {
     return (
-        <div className="flex flex-grow flex-col items-center w-full h-full">
-            <div className="w-full">
+        <div className="relative flex flex-grow flex-col items-center w-full h-full">
+            <div className="relative w-full">
                 <img
                     className="object-cover w-full h-48 sm:h-56 md:h-64 lg:h-72 blur-sm"
                     src={homeImage}
                     alt="développeur"
                 />
+                <div className="absolute inset-0 flex flex-col justify-center items-center">
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl text-white">BERNIER Hugo</h1>
+                </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center flex-grow px-4 sm:px-8 md:px-16 lg:px-32">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl text-white">BERNIER Hugo</h1>
+            <div className="flex flex-col items-center text-center flex-grow px-4 sm:px-8 md:px-16 lg:px-32 mt-12">
                 <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-300 mt-4 sm:mt-6 md:mt-8">
                     Développeur Web, PHP/Laravel, ReactJS
                 </h2>
